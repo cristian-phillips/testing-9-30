@@ -20,7 +20,7 @@ Serves one page or API endpoint (GET /) - (localhost:3000) <br>
 Health check for app + DB (GET /health) - (localhost:3000/health)
 
 # migration.js
-Connects to DB + migration \ 
+Connects to DB + migration <br>
 Uploads a basic table from: migrations/001_initial.sql
 
 # tests/app.test.js
