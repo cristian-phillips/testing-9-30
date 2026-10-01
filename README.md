@@ -1,11 +1,11 @@
 # Cloning the branch
-git clone git@github.com:PixelatedCodingAdventures/CIS-272.git <br>
+in terminal: git clone git@github.com:PixelatedCodingAdventures/CIS-272.git <br>
 cd to folder and type: <br>
 git checkout develop <br>
 this should bring in all the files.
 
 # Installing
-type: npm install \
+type: npm install <br>
 This should install all the dependencies in package.json
 
 # Environment credentials
@@ -35,3 +35,7 @@ npm run migrate - sends mysql table to DB. <br>
 npm test - runs Jest tests. <br>
 npm run lint - runs linter (should show nothing if linter passes) <br>
 npm start - starts the webserver
+
+# for docker
+add node and all the files - (node port 3000)<br>
+add mysql with configuration from the .env
