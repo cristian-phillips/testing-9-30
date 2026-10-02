@@ -43,3 +43,6 @@ This takes a few minutes because it has to load a Linux server, install Node.js 
 # for docker
 add node and all the files - (node port 3000)<br>
 add mysql with configuration from the .env
+
+
+[![CI](https://github.com/cristian-phillips/testing-9-30/actions/workflows/ci.yml/badge.svg?branch=develop)](https://github.com/cristian-phillips/testing-9-30/actions/workflows/ci.yml)
