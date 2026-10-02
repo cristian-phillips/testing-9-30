@@ -36,6 +36,9 @@ npm test - runs Jest tests. <br>
 npm run lint - runs linter (should show nothing if linter passes) <br>
 npm start - starts the webserver
 
+# CI/CD
+the github actions for CI/CD runs from a single file: .github\workflows\ci.yml
+
 # for docker
 add node and all the files - (node port 3000)<br>
 add mysql with configuration from the .env
