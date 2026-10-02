@@ -37,7 +37,8 @@ npm run lint - runs linter (should show nothing if linter passes) <br>
 npm start - starts the webserver
 
 # CI/CD
-the github actions for CI/CD runs from a single file: .github\workflows\ci.yml
+the github actions for CI/CD runs from a single file: .github\workflows\ci.yml <br>
+This takes a few minutes because it has to load a Linux server, install Node.js and MySQL, and then run the tests.
 
 # for docker
 add node and all the files - (node port 3000)<br>
